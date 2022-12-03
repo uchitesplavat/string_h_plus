@@ -4,6 +4,22 @@ Implementation of the string.h library with additions.
 
 In this project I developed my own implementation of the string.h library in C programming language with some additions (with my own implementation of sprintf function). The string.h library is the main C library for string processing.
 
+## Build
+
+Build my-project with make
+
+```bash
+  make all
+```
+    
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  make gcov_report
+```
+
 ### string.h Types
 
 | No. | Variable | Description |
